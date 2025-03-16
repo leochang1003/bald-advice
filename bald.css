@@ -1,0 +1,43 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    text-align: center;
+    padding: 50px;
+    background-image: url('https://xinpu-ahm.com.tw/wp-content/uploads/2023/12/神豬.jpg'); /* Replace with actual URL */
+    background-size: cover;
+    background-position: center;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly transparent to let the background show */
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input, select, button {
+    padding: 12px;
+    margin: 12px 0;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 60%;
+    max-width: 300px;
+}
+
+button {
+    background-color: #d8ab4e;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #b88c35;
+}
+
+h1 {
+    font-family: 'Georgia', serif;
+    color: #d8ab4e;
+}

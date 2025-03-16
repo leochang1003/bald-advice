@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>禿頭建議系統</title>
+    <link rel="stylesheet" href="bald.css">
+</head>
+<body>
+    <div class="container">
+        <h1>禿頭建議系統</h1>
+        <form id="hairLossForm">
+            <label for="name">姓名:</label>
+            <input type="text" id="name" required><br><br>
+
+            <label for="age">年齡:</label>
+            <input type="number" id="age" required><br><br>
+
+            <label for="hairLoss">禿頭程度:</label><br>
+            <select id="hairLoss">
+                <option value="1">無禿頭</option>
+                <option value="2">輕度禿頭</option>
+                <option value="3">中度禿頭</option>
+                <option value="4">重度禿頭</option>
+            </select><br><br>
+
+            <button type="button" onclick="getAdvice()">提交</button>
+        </form>
+        <div id="advice"></div>
+    </div>
+    <script src="bald.js"></script>
+</body>
+</html>
